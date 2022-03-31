@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.card {
+    width: 30%;
+    height: 30%;
+    background-color: rgb(10, 10, 17);
+    border: 3px solid sandybrown;
+    margin: 50px auto;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    margin-top: -13%;
+    margin-left: 40%;
+    border-radius: 60px;
+    border: 5px solid dodgerblue;
+}
+.active{
+    margin: 70px auto;
+    text-align: center;
+    font-size: 30px;
+}
+.card p{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(226, 209, 209);
+}
+
+.active input{
+    padding: 15px;
+    background-color: rgb(134, 148, 148);
+    
+    border-radius: 20px;
+    border: 2px solid rgb(43, 12, 100);
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0px 50px;
+}
+.link a{
+    text-decoration: none;
+    font-size: 20px;
+    color: antiquewhite;
+    font-weight: bold;
+}
+.link h2{
+    font-size: 20px;
+    color: antiquewhite;
+    font-weight: bold;
+}
+.active .log{
+    margin: 30px;
+    padding: 25px;
+    background-color: darkturquoise;
+    border-radius: 20px;
+    border: 2px solid rgb(192, 177, 177);
+}
+
+
